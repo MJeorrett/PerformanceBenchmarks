@@ -2,6 +2,7 @@
 
 namespace GetGenericTypeName;
 
+[MemoryDiagnoser(false)]
 public class Benchmarks
 {
     private IdHasher _idHasher = null!;
